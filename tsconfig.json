@@ -1,0 +1,16 @@
+{
+	"include": [
+		"./**/*.ts"
+	],
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"module": "commonjs", 
+		"target": "ES6", 
+        "strict": false, 
+		"outDir": "",
+		"paths": {},
+		"types": [
+		  "node"
+		]
+	}
+}

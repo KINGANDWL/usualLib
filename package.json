@@ -1,0 +1,20 @@
+{
+  "name": "usual-lib",
+  "version": "1.0.0",
+  "description": "some usual lib which may be useful in daily life",
+  "main": "main.js",
+  "scripts": {
+    "_compile": "tsc -p ./tsconfig.json",
+    "_tsr": "yarn compile && yarn start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4",
+    "yarn": "^1.22.19"
+  }
+}
